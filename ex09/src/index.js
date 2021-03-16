@@ -3,9 +3,9 @@ function functionElse(num) {
 var result=num;
 
 if(result <= 5) {
-    return "5 or smaller"
+    return "5 or smaller";
 } else {
-    return "Bigger than 5"
+    return "Bigger than 5";
 }
 }
 console.log(functionElse(4));
