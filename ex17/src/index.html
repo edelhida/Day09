@@ -1,0 +1,54 @@
+<h2>CatPhotoApp</h2>
+<main>
+
+    <p>
+        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+        hairball run catnip eat the grass sniff.
+    </p>
+    <p> Things cats love</p>
+    <ul>
+        <li>fish</li>
+        <li>milk</li>
+        <li>sun</li>
+    </ul>
+    <p>Top 3 things cats hate</p>
+    <ol>
+        <li>water</li>
+        <li>noise</li>
+        <li>people</li>
+    </ol>
+    <div>
+        <label for="inside-outside">
+            <input id="inside" type="radio" checked name="inside-outside" value="Inside">Inside
+        </label>
+        <label for="inside-outside">
+            <input id="outside" type="radio" name="inside-outside" value="Outside">Outside
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" checked name="favorite_pet" value="Dog">Dog
+        </label>
+        <label>
+            <input type="checkbox" name="favorite_pet" value="Cat">Cat
+        </label>
+        <label>
+            <input type="checkbox" name="favorite_pet" value="Hamster">Hamster
+        </label>
+        <label>
+            <input type="checkbox" name="favorite_pet" value="Bird">Bird
+        </label>
+        <label>
+            <input type="checkbox" name="favorite_pet" value="Fish">Fish
+        </label>
+    </div>
+    <form action="/submit-cat-photo">
+        <input type="text" required placeholder="cat photo URL">
+        <button type="submit">Submit</button>
+    </form>
+    <!--
+        When try to submit the form without any text message 'Please fill out this field'
+        pops up
+    -->
+</main>
+<footer id="footer"></footer>
