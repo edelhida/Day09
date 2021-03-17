@@ -2,13 +2,13 @@
     // Only change code below this line 
 function inverseWhile() {
     var fiveNumbers = 5;
+    var string = ''
     while (fiveNumbers >= 0) {
+        string = string + ',' + fiveNumbers.toString();
         fiveNumbers--;
-        
-        
-        
-    }
-    return "5,4,3,2,1,0";
+    } 
+    return string.replace(',5', '5') + ';';
+
 }
 
     // Only change code above this line 
