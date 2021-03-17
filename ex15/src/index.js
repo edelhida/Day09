@@ -8,7 +8,7 @@ function myDoWhile() {
     } while (numbers < 9){
 
     }
-return myNumbers.replace(',0', '0') + ';';
+return myNumbers.replace(',0', '0');
 } 
 console.log(myDoWhile());
 // Only change code above this line 
