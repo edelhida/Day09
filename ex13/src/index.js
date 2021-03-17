@@ -7,7 +7,7 @@ function inverseWhile() {
         string = string + ',' + fiveNumbers.toString();
         fiveNumbers--;
     } 
-    return string.replace(',5', '5') + ';';
+    return string.replace(',5', '5');
 
 }
 
