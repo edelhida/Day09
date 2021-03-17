@@ -5,7 +5,7 @@ function myForLoop1() {
     for (evenNumbers = 0; evenNumbers <= 8; evenNumbers += 2) {
         string = string + ',' + evenNumbers.toString();
     }
-    return string.replace(',0', '0') + ';';
+    return string.replace(',0', '0');
 }
 
 function myForLoop2() {
@@ -16,7 +16,7 @@ function myForLoop2() {
     for (evenInverseNumbers = 8; evenInverseNumbers >= 0; evenInverseNumbers -= 2) {
         string = string + ',' + evenInverseNumbers.toString();
     } 
-    return string.replace(',8', '8') + ';';   
+    return string.replace(',8', '8');   
 }
 console.log(myForLoop1());
 console.log(myForLoop2());
